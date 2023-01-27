@@ -19,18 +19,7 @@ color: white;
 h1{
     text-align: center;
 }
-/* #background-arc{
-    height: 100%;
-    width: 100%;
-    background-color: blue;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    
-} */
+
 nav {
 float: right;
 width: 18%;
@@ -39,6 +28,7 @@ background: #ccc;
 border: 3px solid;
 border-color: rgb(102, 19, 67);
 padding: 30px;
+justify-content: center;
 }
 nav ul {
 list-style-type: none;
@@ -49,7 +39,7 @@ float: right;
 padding: 20px;
 width: 82%;
 background-color: white;
-height: 100%; 
+height: auto; 
 }
 section::after{
 content: "";
@@ -67,10 +57,4 @@ color: white;
 img {
 border-radius: 50%;
 height: 200px;
-}
-.container{
-   flex: 0 0 10px;
-}
-.nav-left{
-    float: left;
 }
