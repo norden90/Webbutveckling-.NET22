@@ -7,22 +7,74 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="wrapper">
-        <h1>Flexbox demostration! Lektion 01/26</h1>
-        <div class="container">
-            <div>
-                <a href="https://github.com/norden90/Practice-CSharp" alt=""/>
-                <p class="demoText">Mina övgningar från C# kursen.</p>
+    <header>
+        <h1>Grid model</h1>
+    </header>
+    <main class="container-grid">
+        <article class="ipsum grid-col-span-2">
+            <div class="flex">
+                <a href="https://github.com/norden90/Practice-CSharp">Mina övgningar från C# kursen.</a>           
             </div>
-            <div>
-                <a href="https://github.com/norden90/WPFDemo" alt=""/>
-                <p class="demoText">WPF demostration repo från lektion</p>
+            <p class="demoText">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis est sit amet massa consequat luctus. 
+            Nullam blandit consequat magna, eu hendrerit nibh eleifend dictum. Nullam vulputate nulla vel ultrices ultrices.
+            Donec erat risus, consequat id tortor vitae, vulputate dignissim nunc. Integer consequat odio ut quam semper pretium.
+            Suspendisse sit.</p>
+
+        </article>
+        <article class="ipsum">
+            <div class="flex">
+            <a href="https://github.com/norden90/WPFDemo">WPF demostration repo från lektion</a>
             </div>
-            <div>
-                <a href="https://github.com/norden90/AsyncDemo" alt="" />
-                <p class="demoText">Async demostrations repo från lektion</p>
+            <p class="demoText">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus mattis enim. 
+                Donec in auctor ante, nec cursus tortor. Fusce sed lacus non dui semper aliquam. 
+                Aenean quis arcu sit amet tortor ullamcorper porttitor sed id diam. Etiam sagittis accumsan augue nec rutrum.
+                    Vivamus massa erat, sagittis vel orci non.</p>
+        </article>
+        <article class="ipsum">
+            <div class="flex">
+                <a href="https://github.com/norden90/AsyncDemo" alt="">Async demostrations repo från lektion</a>
             </div>
-        </div>
-    </div>
+            <p class="demoText">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis sagittis ante vel dapibus. 
+            Donec vehicula, nisl ut finibus aliquam, lectus velit dictum libero, a tempor orci leo sit amet lorem.
+            Praesent pretium magna id turpis scelerisque, vulputate tempor nulla tincidunt. Nulla tempor sed ligula a efficitur. 
+            Pellentesque porttitor tincidunt.
+            </p>
+        </article>
+        <article class="ipsum">
+            <div class="flex">
+            <a href="https://github.com/norden90/Practice-CSharp" alt="">Mina övgningar från C# kursen.</a>
+            </div>
+            <p class="demoText">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis est sit amet massa consequat luctus. 
+            Nullam blandit consequat magna, eu hendrerit nibh eleifend dictum. Nullam vulputate nulla vel ultrices ultrices.
+            Donec erat risus, consequat id tortor vitae, vulputate dignissim nunc. Integer consequat odio ut quam semper pretium.
+            Suspendisse sit.</p>
+
+        </article>
+        <article class="ipsum grid-col-span-2">
+            <div class="flex"> 
+            <a href="https://github.com/norden90/WPFDemo" alt="">WPF demostration repo från lektion</a>
+            </div>
+            <p class="demoText">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus mattis enim. 
+                Donec in auctor ante, nec cursus tortor. Fusce sed lacus non dui semper aliquam. 
+                Aenean quis arcu sit amet tortor ullamcorper porttitor sed id diam. Etiam sagittis accumsan augue nec rutrum.
+                    Vivamus massa erat, sagittis vel orci non.</p>
+        </article>
+        <article class="ipsum">
+            <div class="flex">
+            <a href="https://github.com/norden90/AsyncDemo" alt="">Async demostrations repo från lektion</a>
+            </div>
+            <p class="demoText">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis sagittis ante vel dapibus. 
+            Donec vehicula, nisl ut finibus aliquam, lectus velit dictum libero, a tempor orci leo sit amet lorem.
+            Praesent pretium magna id turpis scelerisque, vulputate tempor nulla tincidunt. Nulla tempor sed ligula a efficitur. 
+            Pellentesque porttitor tincidunt.
+            </p>
+        </article>
+    </main>
 </body>
 </html>
